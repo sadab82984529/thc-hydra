@@ -1,5 +1,5 @@
-
-				  H Y D R A
+:~# hydra -1 root  -P / usr/aurangzeb4712/share/wordlists/metasploit/unix_passwswords.txt
+-t  6 ssh://192.168.1.123				  H Y D R A  v7.6 (c)
 
                       (c) 2001-2023 by van Hauser / THC
              <vh@thc.org> https://github.com/vanhauser-thc/thc-hydra
